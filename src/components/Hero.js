@@ -2,13 +2,18 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section
-      id="home"
-      className="vh-100 d-flex align-items-center text-light text-center"
-      style={{
-        background: 'radial-gradient(circle at center, rgba(255,255,255,0.06), #0A0A0A 60%)'
-      }}
-    >
+<section
+  id="home"
+  className="d-flex align-items-center text-light text-center"
+  style={{
+    minHeight: '100vh',
+    paddingTop: '120px',
+    paddingBottom: '160px',
+    background: 'radial-gradient(circle at center, rgba(255,255,255,0.06), #0A0A0A 60%)'
+  }}
+>
+
+
       <div
         className="container d-flex flex-column align-items-center justify-content-center"
         style={{ maxWidth: '720px', paddingTop: '1px' }}

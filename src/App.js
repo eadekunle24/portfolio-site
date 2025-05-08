@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar';
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -11,6 +12,11 @@ import './custom.css';
 function App() {
   return (
     <>
+      <>
+  <Navbar />
+  {/* Other components like Hero, About, Projects, etc */}
+</>
+
       <Header />
       <Hero />
       <About />

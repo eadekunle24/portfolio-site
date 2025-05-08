@@ -5,8 +5,12 @@ export default function About() {
     <section
   id="about"
   className="text-center"
-  style={{ paddingTop: '40px', paddingBottom: '80px' }}
+  style={{
+    paddingTop: window.innerWidth < 768 ? '30px' : '80px',
+    paddingBottom: '80px'
+  }}
 >
+
 <div
   className="container d-flex justify-content-center"
   style={{ marginTop: '-250px' }}

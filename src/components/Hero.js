@@ -18,15 +18,17 @@ export default function Hero() {
         className="container d-flex flex-column align-items-center justify-content-center"
         style={{ maxWidth: '720px', paddingTop: '1px' }}
       >
-        <img
-          src="/logo.png"
-          alt="Eman.dev logo"
-          style={{
-            width: '300px',
-            marginBottom: '50px', // reduced spacing
-            filter: 'drop-shadow(0 0 12px rgba(0,255,150,0.4))'
-          }}
-        />
+<img
+  src="/logo.png"
+  alt="Eman.dev logo"
+  aria-label="Eman.dev site logo"
+  style={{
+    width: '300px',
+    marginBottom: '50px',
+    filter: 'drop-shadow(0 0 12px rgba(0,255,150,0.4))'
+  }}
+/>
+
         <h1 className="fw-bold mb-2" style={{ fontSize: '2.6rem', color: '#DADADA' }}>
           WEB DEVELOPMENT THAT WORKS
         </h1>

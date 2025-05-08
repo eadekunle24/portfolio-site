@@ -4,11 +4,13 @@ export default function Projects() {
   return (
     <section id="projects" className="text-center">
       <div className="container">
-        <h2>Projects</h2>
+        <h2 data-aos="fade-up">Projects</h2>
         <div className="row g-4">
           <div className="col-md-6">
             <div
               className="card h-100 p-4"
+              data-aos="zoom-in"
+              data-aos-delay="100"
               style={{
                 backgroundColor: '#111',
                 borderRadius: '12px',
@@ -22,7 +24,12 @@ export default function Projects() {
                 <p className="card-text text-secondary">
                   A professional site for a fictional local coffee shop.
                 </p>
-                <a href="#" className="btn btn-primary mt-2">
+                <a
+                  href="#"
+                  className="btn btn-primary mt-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View Site
                 </a>
               </div>
@@ -32,6 +39,8 @@ export default function Projects() {
           <div className="col-md-6">
             <div
               className="card h-100 p-4"
+              data-aos="zoom-in"
+              data-aos-delay="300"
               style={{
                 backgroundColor: '#111',
                 borderRadius: '12px',
@@ -45,7 +54,12 @@ export default function Projects() {
                 <p className="card-text text-secondary">
                   A budget tracking app with React features and local storage.
                 </p>
-                <a href="#" className="btn btn-primary mt-2">
+                <a
+                  href="#"
+                  className="btn btn-primary mt-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   View App
                 </a>
               </div>

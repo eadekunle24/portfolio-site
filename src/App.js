@@ -1,3 +1,6 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 import Navbar from './components/Navbar';
 import React from 'react';
 import Header from './components/Header';

@@ -1,0 +1,31 @@
+body {
+  background-color: #0A0A0A;
+  color: #CCCCCC;
+}
+
+h1, h2, h3, h4 {
+  color: #DADADA;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.navbar {
+  background-color: #0A0A0A !important;
+}
+
+.nav-link {
+  color: #D3D3D3 !important;
+}
+
+.nav-link:hover {
+  color: #F2493D !important;
+}
+
+.btn-primary {
+  background-color: #F2493D;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #d13c31;
+}

@@ -2,14 +2,15 @@ import React from 'react';
 
 export default function About() {
   return (
-    <section
+<section
   id="about"
   className="text-center"
   style={{
-    paddingTop: window.innerWidth < 768 ? '30px' : '80px',
+    paddingTop: '60px',
     paddingBottom: '80px'
   }}
 >
+
 
 <div
   className="container d-flex justify-content-center"

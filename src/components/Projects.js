@@ -22,7 +22,7 @@ export default function Projects() {
               <div className="card-body">
                 <h5 className="card-title text-light">Business Website</h5>
                 <p className="card-text text-secondary">
-                  A professional site for a fictional local coffee shop.
+                  A professional site for a fictional local tech shop.
                 </p>
                 <a
                   href="#"

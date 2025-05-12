@@ -7,7 +7,7 @@ export default function Projects() {
         <h2 data-aos="fade-up">Projects</h2>
         <div className="row g-4">
 
-          {/* --- Project 1: ByteFix Tech Shop --- */}
+          {/* --- Project 1: ByteFix Tech Shop Website --- */}
           <div className="col-md-6">
             <div
               className="card h-100 p-4"
@@ -22,9 +22,11 @@ export default function Projects() {
               }}
             >
               <div className="card-body">
-                <h5 className="card-title text-light">Business Website</h5>
+                <h5 className="card-title text-light">ByteFix Tech Shop</h5>
                 <p className="card-text text-secondary">
-                  A professional site for a fictional local tech shop.
+                  A clean and modern business website created for a fictional local tech repair shop. 
+                  It showcases services, pricing, a contact form with Google Maps integration, FAQs, 
+                  and smooth scroll animations — all built using React and styled with Bootstrap.
                 </p>
                 <a
                   href="https://project1techshop-mwv7.vercel.app"
@@ -38,29 +40,35 @@ export default function Projects() {
             </div>
           </div>
 
-          {/* --- Project 2: Coffee Shop Site (Upcoming) --- */}
+          {/* --- Project 2: ByteTrack Web App --- */}
           <div className="col-md-6">
             <div
               className="card h-100 p-4"
               data-aos="zoom-in"
-              data-aos-delay="300"
+              data-aos-delay="200"
               style={{
                 backgroundColor: '#111',
                 borderRadius: '12px',
                 border: '1px solid rgba(255,255,255,0.06)',
                 boxShadow: '0 0 20px rgba(0,255,150,0.05)',
-                transition: 'all 0.3s ease',
-                opacity: 0.85
+                transition: 'all 0.3s ease'
               }}
             >
               <div className="card-body">
-                <h5 className="card-title text-light">Coffee Shop Website</h5>
+                <h5 className="card-title text-light">ByteTrack Web App</h5>
                 <p className="card-text text-secondary">
-                  A stylish and responsive mock website for a fictional café. (Coming Soon)
+                  A responsive personal finance tracker built with React. 
+                  Features include dynamic pie and line charts, animated chart transitions, 
+                  date-grouped transactions, modal-based transaction input, and swipe-friendly mobile UX.
                 </p>
-                <button className="btn btn-outline-secondary mt-2" disabled>
-                  Coming Soon
-                </button>
+                <a
+                  href="https://bytetrack-app.vercel.app/"
+                  className="btn btn-primary mt-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View App
+                </a>
               </div>
             </div>
           </div>
